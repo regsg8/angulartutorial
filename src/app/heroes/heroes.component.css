@@ -1,0 +1,29 @@
+.heroes {
+    
+    width: 140px;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 5px;
+}
+.hero-name:hover {
+    box-shadow: 2px 2px grey;
+    color: white;
+    background-color: black;
+}
+
+.hero-id {
+    background-color: lightblue;
+    color: red;
+    border-radius: 5px 0px 0px 5px;
+    padding: 2px;
+}
+.hero-name {
+    background-color: lightsteelblue;
+    border-radius: 0px 5px 5px 0px;
+    padding: 2px;
+}
+
+.selected {
+    background-color: dodgerblue;
+    color: white;
+}
