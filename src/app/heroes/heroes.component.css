@@ -1,29 +1,39 @@
-.heroes {
-    
-    width: 140px;
-    margin: 6px;
-    padding: 2px;
-    border-radius: 5px;
-}
+
 .hero-name:hover {
-    box-shadow: 2px 2px grey;
-    color: white;
-    background-color: black;
+    color: #607D8B;
+    background-color: #DDD;
 }
 
 .hero-id {
-    background-color: lightblue;
-    color: red;
+    background-color:#405061;
+    color: white;
     border-radius: 5px 0px 0px 5px;
-    padding: 2px;
+    height: 1.6em;
+    padding: .3em;
 }
 .hero-name {
-    background-color: lightsteelblue;
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    
+    padding: .3em;
+    height: 1.6em;
     border-radius: 0px 5px 5px 0px;
-    padding: 2px;
 }
 
+
 .selected {
-    background-color: dodgerblue;
+    background-color: #CFD8DC !important;
     color: white;
-}
+  }
+  selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+  }
+  .heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
